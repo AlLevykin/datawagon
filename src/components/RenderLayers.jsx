@@ -9,8 +9,9 @@ import store from '../store/store'
 import { selectAllStations } from '../reducers/stationsSlice'
 import { selectAllRailways } from '../reducers/railwaysGraph'
 import { selectAllTrains } from '../reducers/trainsSlice'
+import { getAllSelected } from '../reducers/selectedTrains'
 import selectedTrains from '../reducers/selectedTrains'
-import { isMapVisible } from '../reducers/mapVisibility';
+import { isMapVisible } from '../reducers/mapVisibility'
 
 export function renderLayers() {
 
@@ -19,6 +20,7 @@ export function renderLayers() {
   const stations = useSelector(selectAllStations)
   const railways = useSelector(selectAllRailways)
   const trains = useSelector(selectAllTrains)
+  const selected = useSelector(getAllSelected)
   const stationsLayerVisibility = useSelector(isMapVisible)
 
   const stationsLayer = new ScatterplotLayer({
@@ -57,21 +59,26 @@ export function renderLayers() {
     }
   })
 
-  const railwaysLayer = new LineLayer({
-    id: 'railways-layer',
-    data: railways,
+  const selectedLayer = new LineLayer({
+    id: 'selected-layer',
+    data: selected,
     pickable: true,
     getWidth: 2,
-    getSourcePosition: d => [d.lon1, d.lat1],
-    getTargetPosition: d => [d.lon2, d.lat2],
-    getColor: d => [192, 192, 192]
+    getSourcePosition: d => {
+      let s = stations.find(i => i.id === d.disl)
+      return [s.lon, s.lat]
+    },
+    getTargetPosition: d => {
+      let s = stations.find(i => i.id === d.dest)
+      return [s.lon, s.lat]
+    },
+    getColor: d => [255, 0, 0]
   });
-
-  //console.log(stationsLayerVisibility)
 
   if (stationsLayerVisibility) layers.push(stationsLayer)
 
   layers.push(trainsLayer)
+  layers.push(selectedLayer)
 
   return layers
 }
