@@ -1,0 +1,928 @@
+[
+ {
+   "id": 110,
+   "disl": 60209,
+   "dislStation": "Москва-Товарная",
+   "dest": 797303,
+   "destStation": "Сургут",
+   "wagons": [
+ {
+   "id": 110100,
+   "train": 110,
+   "disl": 60209,
+   "dislStation": "Москва-Товарная",
+   "dest": 797303,
+   "destStation": "Сургут"
+ },
+ {
+   "id": 110101,
+   "train": 110,
+   "disl": 60209,
+   "dislStation": "Москва-Товарная",
+   "dest": 797303,
+   "destStation": "Сургут"
+ },
+ {
+   "id": 110102,
+   "train": 110,
+   "disl": 60209,
+   "dislStation": "Москва-Товарная",
+   "dest": 797303,
+   "destStation": "Сургут"
+ },
+ {
+   "id": 110103,
+   "train": 110,
+   "disl": 60209,
+   "dislStation": "Москва-Товарная",
+   "dest": 797303,
+   "destStation": "Сургут"
+ },
+ {
+   "id": 110104,
+   "train": 110,
+   "disl": 60209,
+   "dislStation": "Москва-Товарная",
+   "dest": 797303,
+   "destStation": "Сургут"
+ },
+ {
+   "id": 110105,
+   "train": 110,
+   "disl": 60209,
+   "dislStation": "Москва-Товарная",
+   "dest": 797303,
+   "destStation": "Сургут"
+ },
+ {
+   "id": 110106,
+   "train": 110,
+   "disl": 60209,
+   "dislStation": "Москва-Товарная",
+   "dest": 797303,
+   "destStation": "Сургут"
+ },
+ {
+   "id": 110107,
+   "train": 110,
+   "disl": 60209,
+   "dislStation": "Москва-Товарная",
+   "dest": 797303,
+   "destStation": "Сургут"
+ },
+ {
+   "id": 110108,
+   "train": 110,
+   "disl": 60209,
+   "dislStation": "Москва-Товарная",
+   "dest": 797303,
+   "destStation": "Сургут"
+ },
+ {
+   "id": 110109,
+   "train": 110,
+   "disl": 60209,
+   "dislStation": "Москва-Товарная",
+   "dest": 797303,
+   "destStation": "Сургут"
+ },
+ {
+   "id": 110200,
+   "train": 110,
+   "disl": 60209,
+   "dislStation": "Москва-Товарная",
+   "dest": 654504,
+   "destStation": "Уфа"
+ },
+ {
+   "id": 110201,
+   "train": 110,
+   "disl": 60209,
+   "dislStation": "Москва-Товарная",
+   "dest": 654504,
+   "destStation": "Уфа"
+ },
+ {
+   "id": 110202,
+   "train": 110,
+   "disl": 60209,
+   "dislStation": "Москва-Товарная",
+   "dest": 654504,
+   "destStation": "Уфа"
+ },
+ {
+   "id": 110203,
+   "train": 110,
+   "disl": 60209,
+   "dislStation": "Москва-Товарная",
+   "dest": 654504,
+   "destStation": "Уфа"
+ },
+ {
+   "id": 110204,
+   "train": 110,
+   "disl": 60209,
+   "dislStation": "Москва-Товарная",
+   "dest": 654504,
+   "destStation": "Уфа"
+ },
+ {
+   "id": 110300,
+   "train": 110,
+   "disl": 60209,
+   "dislStation": "Москва-Товарная",
+   "dest": 255409,
+   "destStation": "Ижевск"
+ },
+ {
+   "id": 110301,
+   "train": 110,
+   "disl": 60209,
+   "dislStation": "Москва-Товарная",
+   "dest": 255409,
+   "destStation": "Ижевск"
+ },
+ {
+   "id": 110302,
+   "train": 110,
+   "disl": 60209,
+   "dislStation": "Москва-Товарная",
+   "dest": 255409,
+   "destStation": "Ижевск"
+ },
+ {
+   "id": 110303,
+   "train": 110,
+   "disl": 60209,
+   "dislStation": "Москва-Товарная",
+   "dest": 255409,
+   "destStation": "Ижевск"
+ },
+ {
+   "id": 110304,
+   "train": 110,
+   "disl": 60209,
+   "dislStation": "Москва-Товарная",
+   "dest": 255409,
+   "destStation": "Ижевск"
+ },
+ {
+   "id": 110400,
+   "train": 110,
+   "disl": 60209,
+   "dislStation": "Москва-Товарная",
+   "dest": 924605,
+   "destStation": "Братск"
+ },
+ {
+   "id": 110401,
+   "train": 110,
+   "disl": 60209,
+   "dislStation": "Москва-Товарная",
+   "dest": 924605,
+   "destStation": "Братск"
+ },
+ {
+   "id": 110402,
+   "train": 110,
+   "disl": 60209,
+   "dislStation": "Москва-Товарная",
+   "dest": 924605,
+   "destStation": "Братск"
+ },
+ {
+   "id": 110403,
+   "train": 110,
+   "disl": 60209,
+   "dislStation": "Москва-Товарная",
+   "dest": 924605,
+   "destStation": "Братск"
+ },
+ {
+   "id": 110304,
+   "train": 110,
+   "disl": 60209,
+   "dislStation": "Москва-Товарная",
+   "dest": 924605,
+   "destStation": "Братск"
+ }
+   ]
+ },
+ {
+   "id": 220,
+   "disl": 611405,
+   "dislStation": "Волгоград II",
+   "dest": 760008,
+   "destStation": "Пермь-Сортировочная",
+   "wagons": [
+ {
+   "id": 220100,
+   "train": 220,
+   "disl": 611405,
+   "dislStation": "Волгоград II",
+   "dest": 760008,
+   "destStation": "Пермь-Сортировочная"
+ },
+ {
+   "id": 220101,
+   "train": 220,
+   "disl": 611405,
+   "dislStation": "Волгоград II",
+   "dest": 760008,
+   "destStation": "Пермь-Сортировочная"
+ },
+ {
+   "id": 220102,
+   "train": 220,
+   "disl": 611405,
+   "dislStation": "Волгоград II",
+   "dest": 760008,
+   "destStation": "Пермь-Сортировочная"
+ },
+ {
+   "id": 220103,
+   "train": 220,
+   "disl": 611405,
+   "dislStation": "Волгоград II",
+   "dest": 760008,
+   "destStation": "Пермь-Сортировочная"
+ },
+ {
+   "id": 220104,
+   "train": 220,
+   "disl": 611405,
+   "dislStation": "Волгоград II",
+   "dest": 760008,
+   "destStation": "Пермь-Сортировочная"
+ },
+ {
+   "id": 220105,
+   "train": 220,
+   "disl": 611405,
+   "dislStation": "Волгоград II",
+   "dest": 760008,
+   "destStation": "Пермь-Сортировочная"
+ },
+ {
+   "id": 220106,
+   "train": 220,
+   "disl": 611405,
+   "dislStation": "Волгоград II",
+   "dest": 760008,
+   "destStation": "Пермь-Сортировочная"
+ },
+ {
+   "id": 220107,
+   "train": 220,
+   "disl": 611405,
+   "dislStation": "Волгоград II",
+   "dest": 760008,
+   "destStation": "Пермь-Сортировочная"
+ },
+ {
+   "id": 220108,
+   "train": 220,
+   "disl": 611405,
+   "dislStation": "Волгоград II",
+   "dest": 760008,
+   "destStation": "Пермь-Сортировочная"
+ },
+ {
+   "id": 220109,
+   "train": 220,
+   "disl": 611405,
+   "dislStation": "Волгоград II",
+   "dest": 760008,
+   "destStation": "Пермь-Сортировочная"
+ },
+ {
+   "id": 220200,
+   "train": 220,
+   "disl": 611405,
+   "dislStation": "Волгоград II",
+   "dest": 654504,
+   "destStation": "Уфа"
+ },
+ {
+   "id": 220201,
+   "train": 220,
+   "disl": 611405,
+   "dislStation": "Волгоград II",
+   "dest": 654504,
+   "destStation": "Уфа"
+ },
+ {
+   "id": 220202,
+   "train": 220,
+   "disl": 611405,
+   "dislStation": "Волгоград II",
+   "dest": 654504,
+   "destStation": "Уфа"
+ },
+ {
+   "id": 220203,
+   "train": 220,
+   "disl": 611405,
+   "dislStation": "Волгоград II",
+   "dest": 654504,
+   "destStation": "Уфа"
+ },
+ {
+   "id": 220204,
+   "train": 220,
+   "disl": 611405,
+   "dislStation": "Волгоград II",
+   "dest": 654504,
+   "destStation": "Уфа"
+ },
+ {
+   "id": 220300,
+   "train": 220,
+   "disl": 611405,
+   "dislStation": "Волгоград II",
+   "dest": 800101,
+   "destStation": "Челябинск-Грузовой"
+ },
+ {
+   "id": 220301,
+   "train": 220,
+   "disl": 611405,
+   "dislStation": "Волгоград II",
+   "dest": 800101,
+   "destStation": "Челябинск-Грузовой"
+ },
+ {
+   "id": 220302,
+   "train": 220,
+   "disl": 611405,
+   "dislStation": "Волгоград II",
+   "dest": 800101,
+   "destStation": "Челябинск-Грузовой"
+ },
+ {
+   "id": 220303,
+   "train": 220,
+   "disl": 611405,
+   "dislStation": "Волгоград II",
+   "dest": 800101,
+   "destStation": "Челябинск-Грузовой"
+ },
+ {
+   "id": 220304,
+   "train": 220,
+   "disl": 611405,
+   "dislStation": "Волгоград II",
+   "dest": 800101,
+   "destStation": "Челябинск-Грузовой"
+ },
+ {
+   "id": 220400,
+   "train": 220,
+   "disl": 611405,
+   "dislStation": "Волгоград II",
+   "dest": 802107,
+   "destStation": "Верхний Уфалей"
+ },
+ {
+   "id": 220401,
+   "train": 220,
+   "disl": 611405,
+   "dislStation": "Волгоград II",
+   "dest": 802107,
+   "destStation": "Верхний Уфалей"
+ },
+ {
+   "id": 220402,
+   "train": 220,
+   "disl": 611405,
+   "dislStation": "Волгоград II",
+   "dest": 802107,
+   "destStation": "Верхний Уфалей"
+ },
+ {
+   "id": 220403,
+   "train": 220,
+   "disl": 611405,
+   "dislStation": "Волгоград II",
+   "dest": 802107,
+   "destStation": "Верхний Уфалей"
+ },
+ {
+   "id": 220304,
+   "train": 220,
+   "disl": 611405,
+   "dislStation": "Волгоград II",
+   "dest": 802107,
+   "destStation": "Верхний Уфалей"
+ }
+   ]
+ },
+ {
+   "id": 330,
+   "disl": 532909,
+   "dislStation": "Сочи",
+   "dest": 300304,
+   "destStation": "Вологда-2",
+   "wagons": [
+ {
+   "id": 330100,
+   "train": 330,
+   "disl": 532909,
+   "dislStation": "Сочи",
+   "dest": 300304,
+   "destStation": "Вологда-2"
+ },
+ {
+   "id": 330101,
+   "train": 330,
+   "disl": 532909,
+   "dislStation": "Сочи",
+   "dest": 300304,
+   "destStation": "Вологда-2"
+ },
+ {
+   "id": 330102,
+   "train": 330,
+   "disl": 532909,
+   "dislStation": "Сочи",
+   "dest": 300304,
+   "destStation": "Вологда-2"
+ },
+ {
+   "id": 330103,
+   "train": 330,
+   "disl": 532909,
+   "dislStation": "Сочи",
+   "dest": 300304,
+   "destStation": "Вологда-2"
+ },
+ {
+   "id": 330104,
+   "train": 330,
+   "disl": 532909,
+   "dislStation": "Сочи",
+   "dest": 300304,
+   "destStation": "Вологда-2"
+ },
+ {
+   "id": 330105,
+   "train": 330,
+   "disl": 532909,
+   "dislStation": "Сочи",
+   "dest": 300304,
+   "destStation": "Вологда-2"
+ },
+ {
+   "id": 330106,
+   "train": 330,
+   "disl": 532909,
+   "dislStation": "Сочи",
+   "dest": 300304,
+   "destStation": "Вологда-2"
+ },
+ {
+   "id": 330107,
+   "train": 330,
+   "disl": 532909,
+   "dislStation": "Сочи",
+   "dest": 300304,
+   "destStation": "Вологда-2"
+ },
+ {
+   "id": 330108,
+   "train": 330,
+   "disl": 532909,
+   "dislStation": "Сочи",
+   "dest": 300304,
+   "destStation": "Вологда-2"
+ },
+ {
+   "id": 330109,
+   "train": 330,
+   "disl": 532909,
+   "dislStation": "Сочи",
+   "dest": 300304,
+   "destStation": "Вологда-2"
+ },
+ {
+   "id": 330200,
+   "train": 330,
+   "disl": 532909,
+   "dislStation": "Сочи",
+   "dest": 60209,
+   "destStation": "Москва-Товарная"
+ },
+ {
+   "id": 330201,
+   "train": 330,
+   "disl": 532909,
+   "dislStation": "Сочи",
+   "dest": 60209,
+   "destStation": "Москва-Товарная"
+ },
+ {
+   "id": 330202,
+   "train": 330,
+   "disl": 532909,
+   "dislStation": "Сочи",
+   "dest": 60209,
+   "destStation": "Москва-Товарная"
+ },
+ {
+   "id": 330203,
+   "train": 330,
+   "disl": 532909,
+   "dislStation": "Сочи",
+   "dest": 60209,
+   "destStation": "Москва-Товарная"
+ },
+ {
+   "id": 330204,
+   "train": 330,
+   "disl": 532909,
+   "dislStation": "Сочи",
+   "dest": 60209,
+   "destStation": "Москва-Товарная"
+ },
+ {
+   "id": 330205,
+   "train": 330,
+   "disl": 532909,
+   "dislStation": "Сочи",
+   "dest": 60209,
+   "destStation": "Москва-Товарная"
+ },
+ {
+   "id": 330206,
+   "train": 330,
+   "disl": 532909,
+   "dislStation": "Сочи",
+   "dest": 60209,
+   "destStation": "Москва-Товарная"
+ },
+ {
+   "id": 330207,
+   "train": 330,
+   "disl": 532909,
+   "dislStation": "Сочи",
+   "dest": 60209,
+   "destStation": "Москва-Товарная"
+ },
+ {
+   "id": 330300,
+   "train": 330,
+   "disl": 532909,
+   "dislStation": "Сочи",
+   "dest": 800101,
+   "destStation": "Челябинск-Грузовой"
+ },
+ {
+   "id": 330304,
+   "train": 330,
+   "disl": 532909,
+   "dislStation": "Сочи",
+   "dest": 800101,
+   "destStation": "Челябинск-Грузовой"
+ },
+ {
+   "id": 330400,
+   "train": 330,
+   "disl": 532909,
+   "dislStation": "Сочи",
+   "dest": 525407,
+   "destStation": "Краснодар-Сортировочный"
+ },
+ {
+   "id": 330401,
+   "train": 330,
+   "disl": 532909,
+   "dislStation": "Сочи",
+   "dest": 525407,
+   "destStation": "Краснодар-Сортировочный"
+ },
+ {
+   "id": 330402,
+   "train": 330,
+   "disl": 532909,
+   "dislStation": "Сочи",
+   "dest": 525407,
+   "destStation": "Краснодар-Сортировочный"
+ },
+ {
+   "id": 330403,
+   "train": 330,
+   "disl": 532909,
+   "dislStation": "Сочи",
+   "dest": 525407,
+   "destStation": "Краснодар-Сортировочный"
+ },
+ {
+   "id": 330404,
+   "train": 330,
+   "disl": 532909,
+   "dislStation": "Сочи",
+   "dest": 525407,
+   "destStation": "Краснодар-Сортировочный"
+ },
+ {
+   "id": 330405,
+   "train": 330,
+   "disl": 532909,
+   "dislStation": "Сочи",
+   "dest": 525407,
+   "destStation": "Краснодар-Сортировочный"
+ },
+ {
+   "id": 330406,
+   "train": 330,
+   "disl": 532909,
+   "dislStation": "Сочи",
+   "dest": 525407,
+   "destStation": "Краснодар-Сортировочный"
+ },
+ {
+   "id": 330407,
+   "train": 330,
+   "disl": 532909,
+   "dislStation": "Сочи",
+   "dest": 525407,
+   "destStation": "Краснодар-Сортировочный"
+ }
+   ]
+ },
+ {
+   "id": 440,
+   "disl": 840109,
+   "dislStation": "Барнаул",
+   "dest": 270202,
+   "destStation": "Киров",
+   "wagons": [
+ {
+   "id": 440100,
+   "train": 440,
+   "disl": 840109,
+   "dislStation": "Барнаул",
+   "dest": 270202,
+   "destStation": "Киров"
+ },
+ {
+   "id": 440101,
+   "train": 440,
+   "disl": 840109,
+   "dislStation": "Барнаул",
+   "dest": 270202,
+   "destStation": "Киров"
+ },
+ {
+   "id": 440102,
+   "train": 440,
+   "disl": 840109,
+   "dislStation": "Барнаул",
+   "dest": 270202,
+   "destStation": "Киров"
+ },
+ {
+   "id": 440103,
+   "train": 440,
+   "disl": 840109,
+   "dislStation": "Барнаул",
+   "dest": 270202,
+   "destStation": "Киров"
+ },
+ {
+   "id": 440104,
+   "train": 440,
+   "disl": 840109,
+   "dislStation": "Барнаул",
+   "dest": 270202,
+   "destStation": "Киров"
+ },
+ {
+   "id": 440105,
+   "train": 440,
+   "disl": 840109,
+   "dislStation": "Барнаул",
+   "dest": 270202,
+   "destStation": "Киров"
+ },
+ {
+   "id": 440106,
+   "train": 440,
+   "disl": 840109,
+   "dislStation": "Барнаул",
+   "dest": 270202,
+   "destStation": "Киров"
+ },
+ {
+   "id": 440107,
+   "train": 440,
+   "disl": 840109,
+   "dislStation": "Барнаул",
+   "dest": 270202,
+   "destStation": "Киров"
+ },
+ {
+   "id": 440108,
+   "train": 440,
+   "disl": 840109,
+   "dislStation": "Барнаул",
+   "dest": 270202,
+   "destStation": "Киров"
+ },
+ {
+   "id": 440109,
+   "train": 440,
+   "disl": 840109,
+   "dislStation": "Барнаул",
+   "dest": 270202,
+   "destStation": "Киров"
+ },
+ {
+   "id": 440200,
+   "train": 440,
+   "disl": 840109,
+   "dislStation": "Барнаул",
+   "dest": 817600,
+   "destStation": "Магнитогорск-Грузовой"
+ },
+ {
+   "id": 440201,
+   "train": 440,
+   "disl": 840109,
+   "dislStation": "Барнаул",
+   "dest": 817600,
+   "destStation": "Магнитогорск-Грузовой"
+ },
+ {
+   "id": 440202,
+   "train": 440,
+   "disl": 840109,
+   "dislStation": "Барнаул",
+   "dest": 817600,
+   "destStation": "Магнитогорск-Грузовой"
+ },
+ {
+   "id": 440203,
+   "train": 440,
+   "disl": 840109,
+   "dislStation": "Барнаул",
+   "dest": 817600,
+   "destStation": "Магнитогорск-Грузовой"
+ },
+ {
+   "id": 440204,
+   "train": 440,
+   "disl": 840109,
+   "dislStation": "Барнаул",
+   "dest": 817600,
+   "destStation": "Магнитогорск-Грузовой"
+ },
+ {
+   "id": 440205,
+   "train": 440,
+   "disl": 840109,
+   "dislStation": "Барнаул",
+   "dest": 817600,
+   "destStation": "Магнитогорск-Грузовой"
+ },
+ {
+   "id": 440206,
+   "train": 440,
+   "disl": 840109,
+   "dislStation": "Барнаул",
+   "dest": 817600,
+   "destStation": "Магнитогорск-Грузовой"
+ },
+ {
+   "id": 440207,
+   "train": 440,
+   "disl": 840109,
+   "dislStation": "Барнаул",
+   "dest": 817600,
+   "destStation": "Магнитогорск-Грузовой"
+ },
+ {
+   "id": 440300,
+   "train": 440,
+   "disl": 840109,
+   "dislStation": "Барнаул",
+   "dest": 800101,
+   "destStation": "Челябинск-Грузовой"
+ },
+ {
+   "id": 440304,
+   "train": 440,
+   "disl": 840109,
+   "dislStation": "Барнаул",
+   "dest": 800101,
+   "destStation": "Челябинск-Грузовой"
+ },
+ {
+   "id": 440400,
+   "train": 440,
+   "disl": 840109,
+   "dislStation": "Барнаул",
+   "dest": 797303,
+   "destStation": "Сургут"
+ },
+ {
+   "id": 440401,
+   "train": 440,
+   "disl": 840109,
+   "dislStation": "Барнаул",
+   "dest": 797303,
+   "destStation": "Сургут"
+ },
+ {
+   "id": 440402,
+   "train": 440,
+   "disl": 840109,
+   "dislStation": "Барнаул",
+   "dest": 797303,
+   "destStation": "Сургут"
+ },
+ {
+   "id": 440403,
+   "train": 440,
+   "disl": 840109,
+   "dislStation": "Барнаул",
+   "dest": 797303,
+   "destStation": "Сургут"
+ },
+ {
+   "id": 440404,
+   "train": 440,
+   "disl": 840109,
+   "dislStation": "Барнаул",
+   "dest": 797303,
+   "destStation": "Сургут"
+ },
+ {
+   "id": 440405,
+   "train": 440,
+   "disl": 840109,
+   "dislStation": "Барнаул",
+   "dest": 797303,
+   "destStation": "Сургут"
+ },
+ {
+   "id": 440406,
+   "train": 440,
+   "disl": 840109,
+   "dislStation": "Барнаул",
+   "dest": 797303,
+   "destStation": "Сургут"
+ },
+ {
+   "id": 440407,
+   "train": 440,
+   "disl": 840109,
+   "dislStation": "Барнаул",
+   "dest": 797303,
+   "destStation": "Сургут"
+ }
+   ]
+ },
+ {
+   "id": 550,
+   "disl": 774706,
+   "dislStation": "Серов-Сортировочный",
+   "dest": 657907,
+   "destStation": "Самара",
+   "wagons": [
+ {
+   "id": 550405,
+   "train": 550,
+   "disl": 774706,
+   "dislStation": "Серов-Сортировочный",
+   "dest": 657907,
+   "destStation": "Самара"
+ },
+ {
+   "id": 550406,
+   "train": 550,
+   "disl": 774706,
+   "dislStation": "Серов-Сортировочный",
+   "dest": 657907,
+   "destStation": "Самара"
+ },
+ {
+   "id": 550407,
+   "train": 550,
+   "disl": 774706,
+   "dislStation": "Серов-Сортировочный",
+   "dest": 657907,
+   "destStation": "Самара"
+ }
+,
+ {
+   "id": 550408,
+   "train": 550,
+   "disl": 774706,
+   "dislStation": "Серов-Сортировочный",
+   "dest": 645100,
+   "destStation": "Ульяновск 3"
+ }
+   ]
+ }
+]
