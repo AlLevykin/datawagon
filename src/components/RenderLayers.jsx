@@ -2,9 +2,10 @@ import { useSelector } from 'react-redux'
 import {
   ScatterplotLayer,
   LineLayer,
-  SimpleMeshLayer
+  SimpleMeshLayer,
+  ArcLayer
 } from "deck.gl";
-import {OBJLoader} from '@loaders.gl/obj'
+import { OBJLoader } from '@loaders.gl/obj'
 import store from '../store/store'
 import { selectAllStations } from '../reducers/stationsSlice'
 import { selectAllRailways } from '../reducers/railwaysGraph'
@@ -12,6 +13,24 @@ import { selectAllTrains } from '../reducers/trainsSlice'
 import { getAllSelected } from '../reducers/selectedTrains'
 import selectedTrains from '../reducers/selectedTrains'
 import { isMapVisible } from '../reducers/mapVisibility'
+
+const getWagonsWays = (st) => {
+
+  const wagonsWays = []
+
+  st.forEach(t => {
+    t.wagons.forEach(w => {
+      let ww = {
+        disl: t.disl,
+        dest: w.dest,
+        color: t.color
+      }
+      wagonsWays.push(ww)
+    })
+  });
+
+  return wagonsWays
+}
 
 export function renderLayers() {
 
@@ -21,6 +40,7 @@ export function renderLayers() {
   const railways = useSelector(selectAllRailways)
   const trains = useSelector(selectAllTrains)
   const selected = useSelector(getAllSelected)
+  const ways = getWagonsWays(selected)
   const stationsLayerVisibility = useSelector(isMapVisible)
 
   const stationsLayer = new ScatterplotLayer({
@@ -72,13 +92,51 @@ export function renderLayers() {
       let s = stations.find(i => i.id === d.dest)
       return [s.lon, s.lat]
     },
-    getColor: d => [255, 0, 0]
+    getColor: d => d.color
+  });
+
+  const destinationLayer = new ScatterplotLayer({
+    id: "destination-layer",
+    data: selected,
+    pickable: true,
+    opacity: 0.8,
+    stroked: true,
+    filled: true,
+    radiusScale: 6,
+    radiusMinPixels: 1,
+    lineWidthMinPixels: 1,
+    getPosition: d => {
+      let s = stations.find(i => i.id === d.dest)
+      return [s.lon, s.lat]
+    },
+    getRadius: 5000,
+    getFillColor: d => d.color,
+    getLineColor: [0, 0, 0]
+  })
+
+  const wagonsLayer = new ArcLayer({
+    id: 'arc-layer',
+    data: ways,
+    pickable: true,
+    getWidth: 3,
+    getSourcePosition: d => {
+      let s = stations.find(i => i.id === d.disl)
+      return [s.lon, s.lat]
+    },
+    getTargetPosition: d => {
+      let s = stations.find(i => i.id === d.dest)
+      return [s.lon, s.lat]
+    },
+    getSourceColor: d => d.color,
+    getTargetColor: d => d.color,
   });
 
   if (stationsLayerVisibility) layers.push(stationsLayer)
 
   layers.push(trainsLayer)
   layers.push(selectedLayer)
+  layers.push(destinationLayer)
+  layers.push(wagonsLayer)
 
   return layers
 }

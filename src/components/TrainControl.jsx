@@ -2,7 +2,8 @@ import * as React from 'react'
 import { styled } from '@mui/material/styles'
 import Control from './Control'
 import CloseIcon from '@mui/icons-material/Cancel'
-import InfoIcon from '@mui/icons-material/Info';
+import InfoIcon from '@mui/icons-material/Info'
+import SquareIcon from '@mui/icons-material/Square';
 import Typography from '@mui/material/Typography'
 import IconButton from '@mui/material/IconButton'
 import Dialog from '@mui/material/Dialog'
@@ -34,18 +35,19 @@ const TrainControl = (props) => {
 
     let train = props.train
 
-    const [openDialog, setOpen] = React.useState(false);
+    const [openDialog, setOpen] = React.useState(false)
 
     const handleOpenDialog = () => {
         setOpen(true);
-    };
+    }
+
     const handleCloseDialog = () => {
         setOpen(false);
-    };
+    }
 
     const handleClose = () => {
         store.dispatch(selectedTrains.actions.setSelected(train))
-    };
+    }
 
     return (
         <>
